@@ -1,0 +1,70 @@
+git - is a version control / distributed version control
+   
+      ability to revert back to a previous file version or project version.
+      version control any plain text file , not just source code .
+      software designed to record changes made to file/files over time .
+
+git hub - git is a tool and github is a service for the projects that uses git 
+          it basically provides backup and the ability to collaborate with others.
+
+     edior      contributor1      contributor2
+
+
+
+create new project folder
+
+
+intialize a git repository within that folder 
+ use comand git init
+
+
+configure and introduce yourself
+
+git config --global user.email "mail"
+git config --global user.name "your name".
+
+
+create our checklist with few items to get us started.
+use git command - git add filename 
+
+
+store a snapshot our checklist in git by commiting the file 
+
+      use git command - git commit-m "message"
+
+                git commit -am <commit message>
+                     git commit -am "message"
+
+
+
+create a repo in github 
+
+
+link the local repo to git hub  repo 
+
+ git remote add origin "httpsRepo url"
+
+
+
+push changes to github master branch 
+
+
+ use git command  -  git push origin main/master or git push -u origin master 
+                                                 or git push --  all origin
+
+
+         commited->modified->staged
+
+
+
+
+
+
+
+
+
+
+
+
+
+
